@@ -6,18 +6,21 @@ This is a later version of an old DOS Borland TurboBasic Artificial Intelligence
 This used the AdLib soundcard which was the first soundcard of the IBM PC and I talked on the of reps into lettingme get an early example to program for.
 https://en.wikipedia.org/wiki/Ad_Lib,_Inc.
 
-I wrote this using Borland TurboBasic which great because it was compiled Basic which ran fast and it provided you with a standalone program you could run without anyrun times like the common versions of Basic needed back then.
+I wrote this using Borland TurboBasic which great because it was compiled Basic which ran fast and it provided you with a standalone program you could run without any runtimes like the common versions of Basic needed back then.
 
-The program itself used a pattern technique. I choose random patterns of notes and assebled them into random patterns of music and repeated those with slight variations to produce songs. I didnt knowmuch about mousic at the time so frankly the result wasnt good becuase I was having it pick ranadom note frequencies etc without regard fro chords etc.
+The program itself used a pattern technique. I choose random patterns of notes and assebled them into random patterns of music and repeated those with slight variations to produce songs. I didnt know much about music at the time so frankly the result wasnt good because I was having it pick random note frequencies etc without regard for chords etc.
 
-However the AdLib board was breakthrough then because you could produce multiple simultaneous voices (notes) which the PC couldnt do then. And it let you manipulation the sound envelope of each note directly without basic frequency,attack, delay, decay and other parameters. 
+However the AdLib board was a breakthrough then because you could produce multiple simultaneous voices (notes) which the PC couldnt do then. And it let you manipulation the sound envelope of each note directly without basic frequency,attack, delay, decay and other parameters. 
 
-MIDI had just been invented. The board could be addresse dat the high level MIDI or at the hardware level as I discussed. You can see some of both in the code.
+MIDI had just been invented. (Herbie Hancocks music and his interfacing of deferrent machines that played music was a revolution in a popular Music Video playing on MTV then.) The AdLib board could be addressed at the high level MIDI or at the hardware level as I discussed. You can see some of both in the code.
 
-As I recall this also produced some somewhat pleasing graphics on the screen in the form of shapes like colorful arcs etc and the music played.
+As I recall this also produced some somewhat pleasing graphics on the screen in the form of shapes like colorful arcs etc as the music played.
 
-At this time I was fascinated with the emerging field of artificial intelligence and had created a back propagation nueral network on a free shareware spreadsheet called ASEASYAS and was also jumping into genetic r evolutionary algorithms. I had intened to turn these music patterns into a full fledged genetic algorithm as I fully developed this and as you can tell many of the musical note patterns are similiar to the "genes" sequnces that are modified in a typical evolutary algorithm program. I forget how far I got in the effort. I beleive the goal was to have thePC make the music and then have the user keep giving it positive of negative feedback via the keyboard until the program evolved each song into something that was good.
+At this time I was fascinated with the emerging field of artificial intelligence and had created a back propagation nueral network on a free shareware spreadsheet called ASEASYAS and was also jumping into genetic or evolutionary algorithms. I had intended to turn these music patterns into a full fledged genetic algorithm as I fully developed this, and as you can tell many of the musical note patterns are similiar to the "genes" sequences that are modified in a typical evolutary algorithm program. I forget how far I got in the effort. I beleive the goal was to have th ePC make the music and then have the user keep giving it positive of negative feedback via the keyboard until the program evolved each song into something that was good.
 
+Notice how Borland's TurboBasic let you program inline assembly code within your basic program which was very advanced thing. It was necessary to address some registers in the ADLib board as I recall. Real Men programmed in Assembly back then soI was proud of myself as a self taught programmer! LOL.
+
+I just thought some programming and computer PC historians from now or the future might like to see how things were done in the old days.
 
 note: the "neatend" at the top is the result of another program I wrote which would neaten up the turbobasic code I wrote inserting proper indents etc and even followed nested lopps etc. I'll upload that later because it could the beginning basis for an interpreter or compiler. When I ran the program called "neatenup.bas on a program file it output that file to another file called "neatened.bas" and that had the date and time it was neatend at the top. Hence this.
 
