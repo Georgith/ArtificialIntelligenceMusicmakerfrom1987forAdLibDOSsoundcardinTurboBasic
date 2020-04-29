@@ -8,11 +8,11 @@ https://en.wikipedia.org/wiki/Ad_Lib,_Inc.
 
 I wrote this using Borland TurboBasic which great because it was compiled Basic which ran fast and it provided you with a standalone program you could run without any runtimes like the common versions of Basic needed back then.
 
-The program itself used a pattern technique. I choose random patterns of notes and assebled them into random patterns of music and repeated those with slight variations to produce songs. I didnt know much about music at the time so frankly the result wasnt good because I was having it pick random note frequencies etc without regard for chords etc.
+The program itself used a pattern technique. It choose random patterns of notes and assembled them into random patterns of music and repeated those with slight variations to produce songs. I didnt know much about music at the time so frankly the result wasnt good because I was having it pick random note frequencies etc without regard for chords etc.
 
 However the AdLib board was a breakthrough then because you could produce multiple simultaneous voices (notes) which the PC couldnt do then. And it let you manipulation the sound envelope of each note directly without basic frequency,attack, delay, decay and other parameters. 
 
-MIDI had just been invented. (Herbie Hancocks music and his interfacing of deferrent machines that played music was a revolution in a popular Music Video playing on MTV then.) The AdLib board could be addressed at the high level MIDI or at the hardware level as I discussed. You can see some of both in the code.
+MIDI had just been invented. (Herbie Hancocks "Rockit" music video https://www.youtube.com/watch?v=GHhD4PD75zY and his interfacing of different machines that played music was a revolution in a popular Music Video playing on MTV then.) The AdLib board could be addressed at the high level MIDI or at the hardware level as I discussed. You can see some of both in the code.
 
 As I recall this also produced some somewhat pleasing graphics on the screen in the form of shapes like colorful arcs etc as the music played.
 
